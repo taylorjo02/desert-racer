@@ -1,20 +1,8 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "PlayerCharacter.h"
 
-// Sets default values
 APlayerCharacter::APlayerCharacter()
 {
- 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
-}
-
-// Called when the game starts or when spawned
-void APlayerCharacter::BeginPlay()
-{
-	Super::BeginPlay();
 
 	CapsuleComp = CreateDefaultSubobject<UCapsuleComponent>(TEXT("CapsuleComp"));
 	SetRootComponent(CapsuleComp);
@@ -27,10 +15,14 @@ void APlayerCharacter::BeginPlay()
 
 	CarSprite = CreateDefaultSubobject<UPaperSpriteComponent>(TEXT("CarSprite"));
 	CarSprite->SetupAttachment(RootComponent);
+}
+
+void APlayerCharacter::BeginPlay()
+{
+	Super::BeginPlay();
 	
 }
 
-// Called every frame
 void APlayerCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
