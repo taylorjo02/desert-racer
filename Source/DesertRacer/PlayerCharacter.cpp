@@ -53,6 +53,17 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 void APlayerCharacter::Move(const FInputActionValue& Value)
 {
 	const FVector2D MoveActionValue = Value.Get<FVector2D>();
-	GEngine->AddOnScreenDebugMessage(1, 10.0f, FColor::White, MoveActionValue.ToString());
+	//GEngine->AddOnScreenDebugMessage(1, 10.0f, FColor::White, MoveActionValue.ToString());
+	if (CanMove)
+	{
+		if (abs(MoveActionValue.Y) > 0.0f)
+		{
+			float DeltaTime = GetWorld()->DeltaTimeSeconds;
+			FVector CurrentLocation = GetActorLocation();
+			FVector DistanceToMove = GetActorUpVector() * MovementSpeed * MoveActionValue.Y * DeltaTime;
+			FVector NewLocation = CurrentLocation + DistanceToMove;
+			SetActorLocation(NewLocation);
+		}
+	}
 }
 

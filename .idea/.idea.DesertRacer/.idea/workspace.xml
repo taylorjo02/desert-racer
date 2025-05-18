@@ -14,7 +14,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e765e132-ce6b-416a-9518-46ba9c08c8f1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DesertRacer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesertRacer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_PlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_PlayerCharacter.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/DesertRacer/PlayerCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DesertRacer/PlayerCharacter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/DesertRacer/PlayerCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DesertRacer/PlayerCharacter.h" afterDir="false" />
     </list>
@@ -41,6 +40,10 @@
     &quot;accountId&quot;: &quot;c2df6967-1711-467e-8d35-e53bebd6b039&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/joshu/Desktop/GameDev/UE5/DesertRacer/Source/DesertRacer/PlayerCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/joshu/Desktop/GameDev/UE5/DesertRacer/Source/DesertRacer/PlayerCharacter.h" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -200,7 +203,7 @@
       <workItem from="1747020426245" duration="176000" />
       <workItem from="1747193392310" duration="924000" />
       <workItem from="1747194425145" duration="2042000" />
-      <workItem from="1747505045477" duration="3395000" />
+      <workItem from="1747505045477" duration="6055000" />
     </task>
     <task id="LOCAL-00001" summary="Update gitignore">
       <option name="closed" value="true" />
@@ -234,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747195519817</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: Enable enhanced input by creating input mapping context, input action, binding them to the player blueprint and creating the move function">
+      <option name="closed" value="true" />
+      <created>1747508858729</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747508858729</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +325,8 @@
     <MESSAGE value="Add sprite assets, player character class, enable Paper2D in engine, and do some level setup" />
     <MESSAGE value="feat: create player blueprint class and set values for camera, springarm, sprite, and capsule components." />
     <MESSAGE value="feat: add player blueprint uasset" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add player blueprint uasset" />
+    <MESSAGE value="feat: Enable enhanced input by creating input mapping context, input action, binding them to the player blueprint and creating the move function" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Enable enhanced input by creating input mapping context, input action, binding them to the player blueprint and creating the move function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
