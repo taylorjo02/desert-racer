@@ -14,9 +14,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e765e132-ce6b-416a-9518-46ba9c08c8f1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DesertRacer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesertRacer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_PlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_PlayerCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Levels/MainLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Levels/MainLevel.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/DesertRacer/PlayerCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DesertRacer/PlayerCharacter.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,8 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Source/DesertRacer/MyGameMode.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/DesertRacer/MyGameMode.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/joshu/Desktop/GameDev/UE5/DesertRacer/Source/DesertRacer/PlayerCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/joshu/Desktop/GameDev/UE5/DesertRacer/Source/DesertRacer/PlayerCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/joshu/Desktop/GameDev/UE5/DesertRacer/Source/DesertRacer/PlayerCharacter.h" root0="SKIP_HIGHLIGHTING" />
@@ -206,7 +207,7 @@
       <workItem from="1747020426245" duration="176000" />
       <workItem from="1747193392310" duration="924000" />
       <workItem from="1747194425145" duration="2042000" />
-      <workItem from="1747505045477" duration="7156000" />
+      <workItem from="1747505045477" duration="7913000" />
     </task>
     <task id="LOCAL-00001" summary="Update gitignore">
       <option name="closed" value="true" />
@@ -256,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747542336303</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: finish movement code and include rotation on the car sprite. update spring arm to stay in place on rotation.">
+      <option name="closed" value="true" />
+      <created>1747595857213</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747595857213</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +347,8 @@
     <MESSAGE value="feat: add player blueprint uasset" />
     <MESSAGE value="feat: Enable enhanced input by creating input mapping context, input action, binding them to the player blueprint and creating the move function" />
     <MESSAGE value="feat: add movement, rotation, and conditional movement variables. Hook up to W and S keys" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add movement, rotation, and conditional movement variables. Hook up to W and S keys" />
+    <MESSAGE value="feat: finish movement code and include rotation on the car sprite. update spring arm to stay in place on rotation." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: finish movement code and include rotation on the car sprite. update spring arm to stay in place on rotation." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
